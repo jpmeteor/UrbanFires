@@ -11,7 +11,7 @@ st.title("🔥 Visor de Incendios Urbanos - Lima Metropolitana")
 st.markdown("Actualizado automáticamente desde `df_hoy.xlsx`")
 
 # Ruta del archivo Excel (local, cambiar si es necesario)
-excel_path = r"C:/Users/pozot/Downloads/Incendios/df_hoy.xlsx"
+excel_path = "df_hoy.xlsx"
 
 # Cargar datos
 @st.cache_data(show_spinner=False)
